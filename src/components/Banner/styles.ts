@@ -33,6 +33,6 @@ export const Prices = styled.p`
   margin-top: 24px;
 
   span {
-    text-decoration: line through;
+    text-decoration: line-through;
   }
 `;

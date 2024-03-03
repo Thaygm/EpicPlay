@@ -16,7 +16,7 @@ const Header = () => (
             <a href="#"> Novidades</a>
           </LinkItem>
           <LinkItem>
-            <a href="#"> Promoções</a>
+            <a href="#"> Populares</a>
           </LinkItem>
         </Links>
       </nav>

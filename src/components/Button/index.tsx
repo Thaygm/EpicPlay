@@ -12,7 +12,7 @@ const Button = ({ type, title, to, onClick, children }: Props) => {
   if (type === "button") {
     return (
       <ButtonContainer type="button" title={title} onClick={onClick}>
-        nome do botão
+        {children}
       </ButtonContainer>
     );
   }
