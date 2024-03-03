@@ -3,9 +3,9 @@ import { Colors } from "../../styles";
 import { TagContainer } from "../Tag/styles";
 
 export const Card = styled.div`
-background-color: ${Colors.gray}
-border-radius: 8px;
-padding: 8px;
+  background-color: ${Colors.gray};
+  border-radius: 8px;
+  padding: 8px;
 
   ${TagContainer} {
     margin-right: 8px;
@@ -21,8 +21,8 @@ export const Title = styled.h3`
 `;
 
 export const Description = styled.p`
-  font-size: 14px
-  line-height: 22px
+  font-size: 14px;
+  line-height: 22px;
   display: block;
   margin-top: 16px;
 `;

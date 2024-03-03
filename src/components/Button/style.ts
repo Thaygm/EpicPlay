@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { Colors } from "../styles";
+import { Colors } from "../../styles";
 
 export const ButtonContainer = styled.button`
   border: 2px solid ${Colors.white};

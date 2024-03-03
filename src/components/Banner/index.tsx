@@ -2,7 +2,7 @@ import { Image, Title, Prices } from "./styles";
 
 import bannerImg from "../../assets/images/banner-elden-ring.png";
 import Tag from "../Tag";
-import Button from "../../Button";
+import Button from "../Button";
 
 const Banner = () => (
   <Image style={{ backgroundImage: `url(${bannerImg})` }}>
