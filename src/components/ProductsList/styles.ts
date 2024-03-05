@@ -2,11 +2,17 @@ import styled from "styled-components";
 
 import { Props } from ".";
 import { Colors } from "../../styles";
+import { Card } from "../Product/style";
 
 export const Container = styled.section<Omit<Props, "title">>`
   padding: 32px 0;
   background-color: ${(props) =>
     props.background === "black" ? Colors.black : Colors.gray};
+
+  ${Card} {
+    background-color: ${(props) =>
+      props.background === "black" ? Colors.gray : Colors.black};
+  }
 `;
 
 export const List = styled.ul`
