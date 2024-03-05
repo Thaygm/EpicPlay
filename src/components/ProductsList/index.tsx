@@ -1,6 +1,11 @@
 import Product from "../Product";
 import { Container, List } from "./styles";
 
+import ACCreed from "../../assets/images/assassins-creed-mirage.png";
+import DeadLight from "../../assets/images/dead-by-light.png";
+import Palword from "../../assets/images/palworld.png";
+import Phasmophobia from "../../assets/images/phasmophobia.png";
+
 export type Props = {
   title: string;
   background: "gray" | "black";
