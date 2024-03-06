@@ -1,7 +1,7 @@
-import { HeaderBar, Links, LinkItem, LinkCart } from "./styles";
+import { HeaderBar, Links, LinkItem, ProfileConfig } from "./styles";
 
-import logo from "../../assets/images/logo.svg";
-import carrinho from "../../assets/images/carrinho.svg";
+import logo from "../../assets/images/logo.jpg";
+import profile from "../../assets/images/carrinho.svg";
 
 const Header = () => (
   <HeaderBar>
@@ -21,10 +21,10 @@ const Header = () => (
         </Links>
       </nav>
     </div>
-    <LinkCart href="#">
-      0- produto(s)
-      <img src={carrinho} alt="shopping Car" />
-    </LinkCart>
+    <ProfileConfig href="#">
+      Configurações
+      <img src={profile} alt="Perfil" />
+    </ProfileConfig>
   </HeaderBar>
 );
 

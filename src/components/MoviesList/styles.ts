@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { Props } from ".";
 import { Colors } from "../../styles";
-import { Card } from "../Product/style";
+import { Card } from "../Movie/style";
 
 export const Container = styled.section<Omit<Props, "title">>`
   padding: 32px 0;

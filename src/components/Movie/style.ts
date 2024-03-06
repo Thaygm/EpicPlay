@@ -20,16 +20,3 @@ export const Title = styled.h3`
   margin-top: 16px;
   margin-bottom: 8px;
 `;
-
-export const Description = styled.p`
-  font-size: 14px;
-  line-height: 22px;
-  display: block;
-  margin-top: 16px;
-`;
-
-export const Infos = styled.div`
-  position: absolute;
-  top: 16px;
-  right: 16px;
-`;

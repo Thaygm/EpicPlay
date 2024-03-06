@@ -3,9 +3,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { GlobalCss } from "./styles";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
-// import Product from "./components/Product";
-import ProductsList from "./components/ProductsList";
+// import Movie from "./components/Movie";
+import MoviesList from "./components/MoviesList";
 import Footer from "./components/Footer";
+import MovieFeed from "./MovieService";
+import PopularMovies from "./components/PopularMovies";
 
 const routes = createBrowserRouter([
   {
@@ -13,8 +15,9 @@ const routes = createBrowserRouter([
     element: (
       <>
         <Banner />
-        <ProductsList title="Novidades" background="gray" />
-        <ProductsList title="Populares" background="black" />
+        <MoviesList title="Novidades" background="gray" />
+        <MovieFeed />
+        <PopularMovies title="Populares" background="black" />
         <Footer />
       </>
     ),
