@@ -5,9 +5,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 // import Movie from "./components/Movie";
 import MoviesList from "./components/MoviesList";
-import Footer from "./components/Footer";
-import MovieFeed from "./MovieService";
-import PopularMovies from "./components/PopularMovies";
+import MovieFeed from "./components/PopularMovies/MovieService";
 
 const routes = createBrowserRouter([
   {
@@ -16,9 +14,7 @@ const routes = createBrowserRouter([
       <>
         <Banner />
         <MoviesList title="Novidades" background="gray" />
-        <MovieFeed />
-        <PopularMovies title="Populares" background="black" />
-        <Footer />
+        <MovieFeed title="Populares" background="black" />
       </>
     ),
   },

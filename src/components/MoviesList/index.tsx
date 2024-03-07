@@ -1,10 +1,10 @@
 import Movie from "../Movie";
 import { Container, List } from "./styles";
 
-import ACCreed from "../../assets/images/assassins-creed-mirage.png";
-import DeadLight from "../../assets/images/dead-by-light.png";
-import Palword from "../../assets/images/palworld.png";
-import Phasmophobia from "../../assets/images/phasmophobia.png";
+import GarraFerro from "../../assets/images/GarraFerro.png";
+import LuaFlores from "../../assets/images/LuadasFlores.png";
+import ReinoGelado from "../../assets/images/OReinoGelado.png";
+import OneLove from "../../assets/images/OnesLove.png";
 
 export type Props = {
   title: string;
@@ -16,18 +16,18 @@ const MoviesList = ({ background, title }: Props) => (
     <div className="container">
       <h2>{title}</h2>
       <List>
+        <Movie category="Drama" image={GarraFerro} title="Garra de Ferro" />
         <Movie
-          category="ação"
-          image={ACCreed}
-          title="Assassin's Creed Mirage: Edição Mestre Assassino"
+          category="Suspense"
+          image={LuaFlores}
+          title="Assassinos da Lua das Flores"
         />
         <Movie
-          category="Terror"
-          image={DeadLight}
-          title="Dead by Daylight - Gold Edition"
+          category="Animação"
+          image={ReinoGelado}
+          title="O Reino Gelado: A Magia Continua"
         />
-        <Movie category="Mundo Aberto" image={Palword} title="Palworld" />
-        <Movie category="Terror" image={Phasmophobia} title="Phasmophobia" />
+        <Movie category="Drama" image={OneLove} title="Bob Marley: One Love" />
       </List>
     </div>
   </Container>
