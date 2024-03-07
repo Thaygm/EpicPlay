@@ -1,7 +1,7 @@
 import { HeaderBar, Links, LinkItem, ProfileConfig } from "./styles";
 
 import logo from "../../assets/images/logo.jpg";
-import profile from "../../assets/images/carrinho.svg";
+import profile from "../../assets/images/Profile.svg";
 
 const Header = () => (
   <HeaderBar>
