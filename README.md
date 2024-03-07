@@ -11,15 +11,14 @@ $ git clone <https://github.com/Thaygm/PlayProj>
 # Acesse a pasta do projeto no terminal/cmd
 $ cd PlayProj
 
-# Vá para a pasta server
-$ cd server
-
 # Instale as dependências
 $ npm install
 
 $ npm install axios
 
 $ npm install --save @progress/kendo-react-grid
+
+# Adicione a chave de API
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
