@@ -27,7 +27,7 @@ const MovieFeed = ({ background, title }: StyleProps) => {
           "https://api.themoviedb.org/3/discover/movie",
           {
             params: {
-              api_key: "05f860293579d2794f23c2acbc080f22",
+              api_key: "sua-chave-api-aqui",
             },
           }
         );
