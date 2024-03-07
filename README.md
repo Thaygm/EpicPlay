@@ -16,7 +16,9 @@ $ cd server
 
 # Instale as dependências
 $ npm install
+
 $ npm install axios
+
 $ npm install --save @progress/kendo-react-grid
 
 # Execute a aplicação em modo de desenvolvimento
