@@ -83,7 +83,10 @@ export const PersonCell = (props: GridCustomCellProps) => {
         width="350"
         height="350"
         className="movie-poster"
-        style={{ marginBottom: "10px", marginLeft: "5px" }}
+        style={{
+          marginBottom: "10px",
+          margin: "20px",
+        }}
         alt={dataItem.title}
       />
       <span
