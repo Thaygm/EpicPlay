@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+Este repositório contém uma aplicação React introdutoria que utiliza API, framework Kendo UI e esta escrita em typescript. A aplicação utiliza o framework de UI KendoReact para exibir uma tabela de comentários obtidos da API TheMovieDB.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pré-requisitos:
+Antes de executar a aplicação, certifique-se de ter os seguintes pré-requisitos instalados:
 
-## Available Scripts
+Node.js
+npm (Node Package Manager): geralmente é instalado automaticamente com o Node.js
 
-In the project directory, you can run:
+Configuração do Projeto
+Clone este repositório:
+git clone [https://github.com/AnnaMirand4/desafio-oxeanbits.git](https://github.com/Thaygm/PlayProj)
+cd PlayProj
 
-### `npm start`
+Instale as dependências do projeto:
+npm i
+Instale o Axios para realizar chamadas à API
+npm i axios
+Instale o KendoReact para utilizar os componentes de tabela:
+npm i --save @progress/kendo-react-grid
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Após configurado o projeto, você pode executar a aplicação com o seguinte comando:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
+Isso iniciará a aplicação em modo de desenvolvimento e abrirá automaticamente uma nova guia no seu navegador padrão.
