@@ -1,24 +1,26 @@
-Este repositório contém uma aplicação React introdutoria que utiliza API, framework Kendo UI e esta escrita em typescript. A aplicação utiliza o framework de UI KendoReact para exibir uma tabela de comentários obtidos da API TheMovieDB.
+<h1 align="center">PLAY</h1>
 
-Pré-requisitos:
-Antes de executar a aplicação, certifique-se de ter os seguintes pré-requisitos instalados:
+<h1 align="center">
+  <a href="<https://pt-br.reactjs.org/>">🔗 React</a>
+</h1>
+<p align="center">Este repositório contém uma aplicação React introdutoria que utiliza API, framework Kendo UI e esta escrita em typescript. A aplicação utiliza o framework de UI KendoReact para exibir uma tabela de comentários obtidos da API TheMovieDB.</p>
 
-Node.js
-npm (Node Package Manager): geralmente é instalado automaticamente com o Node.js
+# Clone este repositório
+$ git clone <https://github.com/Thaygm/PlayProj>
 
-Configuração do Projeto
-Clone este repositório:
-git clone [https://github.com/AnnaMirand4/desafio-oxeanbits.git](https://github.com/Thaygm/PlayProj)
-cd PlayProj
+# Acesse a pasta do projeto no terminal/cmd
+$ cd PlayProj
 
-Instale as dependências do projeto:
-npm i
-Instale o Axios para realizar chamadas à API
-npm i axios
-Instale o KendoReact para utilizar os componentes de tabela:
-npm i --save @progress/kendo-react-grid
+# Vá para a pasta server
+$ cd server
 
-Após configurado o projeto, você pode executar a aplicação com o seguinte comando:
+# Instale as dependências
+$ npm install
+$ npm install axios
+$ npm install --save @progress/kendo-react-grid
 
-npm start
-Isso iniciará a aplicação em modo de desenvolvimento e abrirá automaticamente uma nova guia no seu navegador padrão.
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
